@@ -379,7 +379,7 @@
 		}
 	}
 
-	let set_canvas_size = async (canvas, dimensions, container, scale = true) => {
+	let set_canvas_size = async (canvas, dimensions, container, scale = false) => {
 		if (!mounted) return;
 		await tick();
 
